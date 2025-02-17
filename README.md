@@ -31,3 +31,12 @@ print(response.choices[0].message.content)
 ```
 - **Чистая архитектура в Spring (пример):**
 https://github.com/vinimrs/spring-boot-clean-architecture/
+- **Настройка application.properties для postgres**
+```
+spring.jpa.hibernate.ddl-auto=update
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=${POSTGRES_USERNAME:postgres}
+spring.datasource.password=${POSTGRES_PASSWORD:postgres}
+spring.datasource.url=${POSTGRES_JDBC_URL}
+```
