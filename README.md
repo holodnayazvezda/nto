@@ -33,7 +33,7 @@ print(response.choices[0].message.content)
 https://github.com/vinimrs/spring-boot-clean-architecture/
 - **Настройка application.properties для postgres**
 
-- 45.151.30.221 31.207.45.85 dany root
+- Сервера Для Деплоя Бэка 45.151.30.221 31.207.45.85 dany root
 ```
 spring.jpa.hibernate.ddl-auto=update
 
