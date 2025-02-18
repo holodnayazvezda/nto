@@ -32,9 +32,9 @@ print(response.choices[0].message.content)
 - **Чистая архитектура в Spring (пример):**
 https://github.com/vinimrs/spring-boot-clean-architecture/
 - **Настройка application.properties для postgres**
-```
-- 45.151.30.221 31.207.45.85
-spring.jpa.hibernate.ddl-auto=update
+
+- 45.151.30.221 31.207.45.85 rroo
+```spring.jpa.hibernate.ddl-auto=update
 
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.datasource.username=${POSTGRES_USERNAME:postgres}
