@@ -33,6 +33,7 @@ print(response.choices[0].message.content)
 https://github.com/vinimrs/spring-boot-clean-architecture/
 - **Настройка application.properties для postgres**
 ```
+- 45.151.30.221 31.207.45.85
 spring.jpa.hibernate.ddl-auto=update
 
 spring.datasource.driver-class-name=org.postgresql.Driver
